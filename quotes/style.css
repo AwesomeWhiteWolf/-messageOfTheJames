@@ -65,6 +65,7 @@ h1 {
   scroll-snap-align: start;
   width: 400px;
   text-align: center;
+	font-size: 130%;
 }
 footer {
 	display: flex;
@@ -91,6 +92,7 @@ li {
 a, li {
 	color: #65eeb6;
 	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;
 }
 a:hover {
 	text-decoration: underline;
@@ -110,15 +112,20 @@ a:hover {
 	}
 	main {
 		margin: 0;
-		width: 500px;
-		height: 900px;
+		height: 800px;
 		background-image: url("https://i.pinimg.com/control/564x/26/75/90/2675906419fac304c3f312960d61b53a.jpg");
 		background-size: cover;
 	}
 	footer {
 		opacity: 80%;
+		position: relative;
 	}
-	.text {
+	#menu a {
+		margin-right: 6px;
+		font-size: 85%;
+	}
+	p {
+		margin-left: 5%;
 		width: 80%;
 		font-size: 125%;
 	}

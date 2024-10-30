@@ -8,7 +8,7 @@ document.querySelectorAll('.answer-submit').forEach(button => {
           if (selectedValue === correctAnswer) {  
             liElement.querySelector('.accepted').style.display = 'block';    
             liElement.querySelector('.comment').style.display = 'block';  
-            // console.log(1);
+            liElement.querySelector('.correct').style.display = 'none';
           } else {  
             liElement.querySelector('.correct').style.display = 'block'; 
             liElement.querySelector('.comment').style.display = 'block'; 

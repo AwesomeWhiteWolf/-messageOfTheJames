@@ -86,6 +86,7 @@ li {
 a, li {
 	color: #65eeb6;
 	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;
 }
 a:hover {
 	text-decoration: underline;
@@ -105,17 +106,17 @@ a:hover {
 	}
 	main {
 		margin: 0;
-		width: 500px;
-		height: 900px;
+		height: 800px;
 		background-image: url("https://i.pinimg.com/control/564x/26/75/90/2675906419fac304c3f312960d61b53a.jpg");
 		background-size: cover;
 	}
 	footer {
 		opacity: 80%;
+		position: relative;
 	}
 	.text {
-		width: 80%;
-		font-size: 125%;
+		width: 70%;
+		font-size: 100%;
 	}
 	.rightBlock { display: none; }
 }
