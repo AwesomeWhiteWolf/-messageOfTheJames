@@ -132,14 +132,8 @@ a:hover {
 		font-size: 85%;
 	}
 	.text {
-		/* width: 80%;
-		font-size: 125%; */
-		display: none;
+		width: 80%;
+		font-size: 125%;
 	}
-	.rightBlock { 
-		opacity: 80%;
-		margin-top: 10%;
-		width: 80%; 
-		font-size: 120%;
-	}
+	.rightBlock { display: none; }
 }
