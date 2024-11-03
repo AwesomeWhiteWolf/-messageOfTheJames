@@ -40,7 +40,8 @@ main {
 	width: 100%;
 	height: 100%;
 	display: flex;
-	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
 	margin-top: 3%;
 }
 h1 {
@@ -66,6 +67,13 @@ h1 {
   width: 400px;
   text-align: center;
 	font-size: 130%;
+}
+.findInput, .findBtn {
+	padding: 4px;
+}
+.findBtn {
+	border-radius: 20%;
+	background-color: #65eeb6;
 }
 footer {
 	display: flex;
@@ -125,9 +133,10 @@ a:hover {
 		font-size: 85%;
 	}
 	p {
-		margin-left: 5%;
+		margin-left: 10%;
 		width: 80%;
 		font-size: 125%;
 	}
+	.findInput, .findBtn { color: black; }
 	.rightBlock { display: none; }
 }
