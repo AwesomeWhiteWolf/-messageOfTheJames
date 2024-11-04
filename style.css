@@ -28,6 +28,7 @@ header {
 	display: flex;
 	align-items: center;
 	margin: 10px;
+	user-select: none;
 }
 #menu a {
 	color: black;
@@ -78,6 +79,7 @@ footer {
 	justify-content: space-between;
 	background-color: #474744;
 	width: 100%;
+	user-select: none;
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -90,7 +92,7 @@ footer {
 	border-radius: 50%;
 }
 ul {
-	margin: 15px 50px;
+	margin: 26px 50px;
 }
 li {
 	font-size: smaller;
@@ -127,8 +129,8 @@ a:hover {
 		position: relative;
 	}
 	.text {
-		width: 70%;
-		font-size: 100%;
+		width: 85%;
+		font-size: 120%;
 	}
 	.rightBlock { display: none; }
 }

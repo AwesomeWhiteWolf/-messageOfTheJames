@@ -30,6 +30,7 @@ header {
 	display: flex;
 	align-items: center;
 	margin: 10px;
+	user-select: none;
 }
 #menu a {
 	color: black;
@@ -47,11 +48,6 @@ main {
 h1 {
 	font-size: larger;
 }
-/* .text {
-	margin-top: 3%;
-	width: 50%;
-	text-align: center;
-} */
 .answers {
 	text-align: left;
 }
@@ -86,7 +82,7 @@ button {
 	cursor: pointer;
 }
 ul {
-	margin: 15px 50px;
+	margin: 26px 50px;
 }
 li {
 	color: #fff;
